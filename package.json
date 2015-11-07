@@ -1,0 +1,30 @@
+{
+  "name": "filesend",
+  "version": "4.2.0",
+  "description": "a web application for sending files to others.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "A. Darius Barbano, 2015",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "client-sessions": "^0.7.0",
+    "connect": "^3.4.0",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "forever": "^0.15.1",
+    "middleware": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.6.1",
+    "mysql": "^2.9.0",
+    "randomstring": "^1.1.3",
+    "session": "^0.1.0",
+    "string": "^3.3.1"
+  }
+}
